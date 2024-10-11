@@ -1,0 +1,36 @@
+.home-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.home-container .nav-item a {
+  color: #20421a;
+}
+
+.home-container .nav-item a.disabled {
+  color: #898071;
+}
+
+.home-container .navigation-menu {
+  position: relative;
+  z-index: 10000;
+  color: #efefee;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
